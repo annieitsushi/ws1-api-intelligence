@@ -770,7 +770,7 @@ Public target/action statuses are `IN_PROGRESS`, `COMPLETED`, and `FAILED`. Over
   "rule_id": "12345678-0000-0000-0000-000000000102",
   "external_context_id": "snow-1234",
   "custom_target_execution_request": {
-    "target_field_set_id": "airwatch_device_guid",
+    "target_field_set_id": "airwatch_device_identity",
     "targets": [
       {
         "_airwatch_device_guid": "11111111-0000-0000-0000-000000000000"
@@ -805,7 +805,7 @@ Public target/action statuses are `IN_PROGRESS`, `COMPLETED`, and `FAILED`. Over
     "execution_id": "12345678-0000-0000-0000-000000000001",
     "executed_by_name": "John Doe",
     "external_context_id": "snow-1234",
-    "target_field_set_id": "airwatch_device_guid",
+    "target_field_set_id": "airwatch_device_identity",
     "execution_complete": true,
     "targets": [
       {
